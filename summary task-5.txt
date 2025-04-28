@@ -1,0 +1,42 @@
+***** Relationships and Trends*****
+1.Gender vs Survival:
+Females had much higher survival rates than males.
+
+2.Class vs Survival:
+Passengers in 1st class had better survival rates than 2nd and 3rd.
+
+3.Fare vs Survival:
+Higher-paying passengers survived more often.
+
+4.Age vs Survival:
+Very young children had higher survival chances
+
+*****Observations for each visual*****
+1. Histograms
+Age distribution is right-skewed. Most passengers are 20–40 years old.
+
+2. Boxplots (Fare outliers)
+Some passengers paid extremely high fares (outliers)
+
+3.Scatterplots (Age vs Fare, Colored by Survival)
+High fare passengers generally survived more.
+Survivors are scattered among all age groups but clustered around lower ages.
+
+4.sns.heatmap
+Pclass negatively correlates with survival (-0.34).
+Fare positively correlates with survival.
+
+5.sns.pairplot
+1st class and higher fares are visually associated with higher survival.
+
+6.Correlation Heatmap
+Strong negative correlation between Pclass and Survived (-0.34).
+Fare is positively correlated with survival.
+
+*****Summary of Findings*****
+Females had a much higher chance of survival than males.
+1st class passengers had a higher survival rate.
+Younger people (especially children) had slightly better chances.
+People who paid higher fares had better survival rates.
+
+
